@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/almacen.iml" filepath="$PROJECT_DIR$/almacen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/almacen-model/almacen-model.iml" filepath="$PROJECT_DIR$/almacen-model/almacen-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/almacen-repositorio/almacen-repositorio.iml" filepath="$PROJECT_DIR$/almacen-repositorio/almacen-repositorio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/almacen-servicio/almacen-servicio.iml" filepath="$PROJECT_DIR$/almacen-servicio/almacen-servicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/almacen-web/almacen-web.iml" filepath="$PROJECT_DIR$/almacen-web/almacen-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="almacen-web:war">
+    <output-path>$PROJECT_DIR$/almacen-web/target</output-path>
+    <root id="archive" name="almacen-web-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="almacen-web:war exploded" />
+    </root>
+  </artifact>
+</component>

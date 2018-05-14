@@ -38,7 +38,7 @@ public class Almacen {
 	@Column(name = "id_usuario", nullable = false)
 	private int IdUsuario;
 	@Column(name = "rol_usuario", length = 50, nullable = false)
-	private int RolUsuario;
+	private String RolUsuario;
 	@Column(name = "activo", nullable = false)
 	private boolean Activo;
 	@Column(name = "observacion", length = 250, nullable = false)
@@ -134,11 +134,11 @@ public class Almacen {
 		IdUsuario = idUsuario;
 	}
 
-	public int getRolUsuario() {
+	public String getRolUsuario() {
 		return RolUsuario;
 	}
 
-	public void setRolUsuario(int rolUsuario) {
+	public void setRolUsuario(String rolUsuario) {
 		RolUsuario = rolUsuario;
 	}
 

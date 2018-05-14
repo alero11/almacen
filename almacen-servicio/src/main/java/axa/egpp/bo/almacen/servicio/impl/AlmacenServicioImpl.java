@@ -15,7 +15,7 @@ public class AlmacenServicioImpl implements AlmacenServicio {
 
 	// Con esto indicamos que vaya a buscar una implementacion que se aducue
 	@Autowired
-		// Se debe acceder al repositorio
+	// Se debe acceder al repositorio
 	AlmacenRepositorio vAlmacenRepositorio;
 
 	public Almacen AdicionarModificar(Almacen vAlmacen) {

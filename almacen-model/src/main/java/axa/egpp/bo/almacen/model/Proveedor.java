@@ -1,6 +1,7 @@
 package axa.egpp.bo.almacen.model;
 
 import java.sql.Date;
+import java.util.Calendar;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -33,8 +34,8 @@ public class Proveedor {
 	private String NombreRepresentante;
 	@Column(name = "telefono_representante", length = 20, nullable = true)
 	private String TelefonoRepresentante;
-	@Column(name = "fecha_ingreso", nullable = false)
-	private Date FechaIngreso;
+	@Column(name = "fecha_ingreso", columnDefinition = "TIMESTAMPTZ", nullable = false)
+	private Calendar FechaIngreso;
 
 	public int getIdProveedor() {
 		return IdProveedor;
@@ -108,11 +109,11 @@ public class Proveedor {
 		TelefonoRepresentante = telefonoRepresentante;
 	}
 
-	public Date getFechaIngreso() {
+	public Calendar getFechaIngreso() {
 		return FechaIngreso;
 	}
 
-	public void setFechaIngreso(Date fechaIngreso) {
+	public void setFechaIngreso(Calendar fechaIngreso) {
 		FechaIngreso = fechaIngreso;
 	}
 }

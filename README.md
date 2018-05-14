@@ -1,4 +1,4 @@
 # Apostilla
 
-This project was generated with MAVEN, SPRING DATA AJAX y JPA
+Este proyecto ha sido generado con MAVEN, SPRING DATA AJAX y JPA
 
